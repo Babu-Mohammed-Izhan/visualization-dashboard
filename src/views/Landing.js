@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 // components
 
-import Navbar from "components/Navbars/AuthNavbar.js";
-import Footer from "components/Footers/Footer.js";
+import Navbar from 'components/Navbars/AuthNavbar.js';
+import Footer from 'components/Footers/Footer.js';
 
 export default function Landing() {
   return (
@@ -42,7 +42,7 @@ export default function Landing() {
           </div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-            style={{ transform: "translateZ(0)" }}
+            style={{ transform: 'translateZ(0)' }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -135,7 +135,7 @@ export default function Landing() {
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -171,7 +171,7 @@ export default function Landing() {
         <section className="relative py-20">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-            style={{ transform: "translateZ(0)" }}
+            style={{ transform: 'translateZ(0)' }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -276,7 +276,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-1-800x800.jpg").default}
+                    src={require('assets/img/team-1-800x800.jpg').default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -311,7 +311,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg").default}
+                    src={require('assets/img/team-2-800x800.jpg').default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -340,7 +340,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg").default}
+                    src={require('assets/img/team-3-800x800.jpg').default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -375,7 +375,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-4-470x470.png").default}
+                    src={require('assets/img/team-4-470x470.png').default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -419,7 +419,7 @@ export default function Landing() {
         <section className="pb-20 relative block bg-blueGray-800">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-            style={{ transform: "translateZ(0)" }}
+            style={{ transform: 'translateZ(0)' }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
